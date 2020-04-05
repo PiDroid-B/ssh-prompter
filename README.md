@@ -1,3 +1,22 @@
+# ⚠️ BRANCH fix-port-missing-in-command aborted ⚠️
+.ssh/config require default conf at the end of the file to use settings as like as port.  
+If you have this problem, check if your default conf is at the end  
+something like that :
+```
+Host server1
+    HostName server1.domain.ext
+    Port 1234
+    User toto
+    Folder servers
+    
+
+### default for all ##
+Host *
+    Port 22
+    User titi
+```
+-------------
+
 # ssh-prompter
 ssh-prompter lists all servers contained in your ssh_config file with search feature.
 
