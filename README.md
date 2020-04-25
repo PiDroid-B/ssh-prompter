@@ -20,3 +20,8 @@ chmod +x ssh.py
 ```
 
 put `alias ssh="~/ssh-prompter/ssh.py"` into you `.bashrc`
+
+
+-----
+Added on the fork
+`git clone https://github.com/PiDroid-B/ssh-prompter.git`
